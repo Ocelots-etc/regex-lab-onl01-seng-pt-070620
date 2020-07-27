@@ -4,7 +4,6 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   (text[0][1] =~ /[un]/i) && (text.scan(/\w+ing/))
-
 end
 
 def words_five_letters_long(text)
