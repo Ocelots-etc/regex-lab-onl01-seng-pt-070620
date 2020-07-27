@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  if word << %w(a e i o u).include?(word[0])
+  if word =~ /\A[aeiou]/
     # word.match.grep(/^\w[aeiou]\s/)
     true
   else
